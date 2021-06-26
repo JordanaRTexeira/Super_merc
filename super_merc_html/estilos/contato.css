@@ -1,0 +1,29 @@
+main {
+	width:670px;
+	margin: 20px 10px 50px 50px;	
+	float:left;
+	height: 600px;
+
+	}
+
+.contato img{
+
+	width: 900px;
+
+}
+
+.tableContato{
+	font-size: 15px;
+	line-height: 2;
+	margin-left: 20px;
+
+}
+#botao{
+	margin-top: 5px;
+	margin-left: 20px;
+}
+h2 {
+	font-size:20px;
+}
+
+

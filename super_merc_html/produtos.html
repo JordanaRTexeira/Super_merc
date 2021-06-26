@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CORTESIA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="estilos/geral.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="estilos/produtos.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+
+<body id="produtos">
+    <div id="tudo">
+        <header>
+            <h1>Super Mercado <strong>Cortesia ✪</strong></h1>
+           
+            <nav>
+                <a href="inicio.html" id="MenuInicio">Início</a>
+                <a href="historia.html" id="MenuHistoria">Nossa história</a>
+                <a href="produtos.html" id="MenuProdutos">Produtos</a>
+                <a href="contato.html" id="MenuContato">Contato</a>
+                <a href="clientes.html" id="MenuClientes">Clientes</a>
+                <a href="login.html" id="MenuAdm">Adm</a>
+            </nav>
+            <form method="GET" action="#" id="busca">
+                <label> O QUE DESEJAS?
+                <input type="text" name="busca" />                    
+            </label>
+                <input type="submit" value="OK" id="submit" />
+            </form>
+        </header>
+        <main>
+           
+        </main>
+     
+    
+
+        <footer id="rodape">
+            <p>© 2021 – Supermercados Cortesia – Todos os direitos reservados.</p>
+          
+        </footer>
+    </div>
+</body>
+
+
+<script>
+    let alimento = {
+        nome: "Arroz",
+        descricao:"O arroz mais soltinho do brasil",
+        tipo: "não perecível",
+        imagem: "img/arroz.jpg"
+    }
+    let template = `
+<section>
+    <h2>PROMOÇÃO DA SEMANA</h2>
+                <p>Alimentos </p>
+<dl>
+    <dd>
+        <figure>
+                 <img src="${alimento.imagem}" alt="Motor 1l" />
+         </figure>
+    </dd>
+    <dt>
+         <a href="#"> ${alimento.nome} </a>
+    </dt>
+     <dd>
+        ${alimento.descricao}
+    </dd>
+     <dd>
+         Uso: ${alimento.uso}
+    </dd>
+</dl>
+    
+    `;
+    document.querySelector("main").innerHTML = template;
+
+    
+</script>
+
+
+</html>

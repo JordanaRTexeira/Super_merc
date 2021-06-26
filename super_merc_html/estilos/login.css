@@ -1,0 +1,21 @@
+main {
+	width:670px;
+	margin: 20px 10px 50px 50px;	
+	float:left;
+	height: 440px;
+
+	}
+.formLogin{
+	margin-top: 30px;
+	margin-left: 170px;
+	text-align: center;
+	font-size: 20px;
+	background: #FFC0CB;
+	border-style: double;
+ }
+
+h2 {
+	font-size:20px;
+}
+
+
