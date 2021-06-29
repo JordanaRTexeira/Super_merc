@@ -105,7 +105,7 @@ exports.deletar = (req, res) => {
     })
 }
 
-exports.validarUsuario = (req, res) => {
+exports.validarFuncionario = (req, res) => {
     if(req.body && req.body.email && req.body.senha){
         const email = req.body.email;
         const senha = req.body.senha;

@@ -2,6 +2,7 @@ const express = require('express');
 const rotas = express.Router();
 const funcionarioController = require('../controller/funcionarioController')
 
+rotas.get('/adm', funcionarioController.validarToken)
 rotas.get('/', funcionarioController.listar)
 rotas.post('/', funcionarioController.inserir)
 rotas.get('/busca', funcionarioController.buscarPorEmail)
