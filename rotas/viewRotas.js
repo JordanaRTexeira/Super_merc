@@ -2,7 +2,7 @@ const express = require('express');
 const viewRotas = express.Router();
 
 
-viewRotas.get('/super_merc', function(req, res){
+viewRotas.get('/cortesia', function(req, res){
   res.render("../Super_merc_frontend/public/views/inicio")
 })
 
@@ -15,7 +15,7 @@ viewRotas.get('/produtos', function(req, res){
 })
 
 viewRotas.get('/contato', function(req, res){
-  res.render("../Super_merc_frontend/public/aviews/contato")
+  res.render("../Super_merc_frontend/public/views/contato")
 })
 
 viewRotas.get('/clientes', function(req, res){
