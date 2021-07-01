@@ -9,12 +9,14 @@ function renderTabela(produtos){
             <th style='text-align: left;'>Id</th>
             <th style='text-align: left;'>Nome</th>
             <th style='text-align: left;'>Preço</th>
+            <th style='text-align: left;'>Categoria</th>
+            <th style='text-align: left;'>Marca</th>
             <th colspan="2">Ação</th>
         </tr>`;
 
     for(var i in produtos){
         str+=`<tr id=${produtos[i].id}>
-                <td>${produtos[i].id}</td>
+                <td>${produtos[i].id_produto}</td>
                 <td>${produtos[i].nome}</td>
                 <td>${produtos[i].preco}</td>
                 <td>${produtos[i].categoria}</td>
