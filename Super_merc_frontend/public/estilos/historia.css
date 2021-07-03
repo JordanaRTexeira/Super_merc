@@ -66,8 +66,9 @@ main {
     z-index: 10;
 }
 
-h2 {
-    font-size:20px;
+h2{
+    font-size:30px;
+    text-shadow: gray 0.1em 0.1em 0.2em;
 }
 
 

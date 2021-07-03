@@ -17,6 +17,7 @@ header {
 	width:980px;
 	height:120px;
 	background: grey;
+	text-shadow: black 0.1em 0.1em 0.2em;
 	}
 header h1  { 
 	position:absolute; 
@@ -27,6 +28,7 @@ header h1  {
 	}
 header h1 strong {
 	color:#fff;
+	
 	}
 nav {
 	position:absolute; 
@@ -84,7 +86,6 @@ footer p span {
 	}
 h2 {
 	font-size:26px;
-	color: green;
 	margin:30px 0 10px 0;
 	}
 
