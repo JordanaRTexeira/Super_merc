@@ -32,4 +32,13 @@ viewRotas.get('/adm', function(req, res) {
   res.render("../Super_merc_frontend/public/views/adm")  
 })
 
+viewRotas.get('/produtosEstoque', function(req, res) { 
+  res.render("../Super_merc_frontend/public/views/produtosEstoque")  
+})
+
+viewRotas.get('/funcionarios', function(req, res) {
+  res.render("../Super_merc_frontend/public/views/funcionarios")
+})
+
+
 module.exports = viewRotas

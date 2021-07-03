@@ -13,6 +13,9 @@ function renderForm(produto) {
         <label for="txtuso">Preço:</label>
         <input type="text" id="txtpreco" value="${produto.preco ?produto.preco : ''}">
         <br />
+        <label for="txtnome">Categoria:</label>
+        <input type="text" id="txtcategoria" value="${produto.categotia ?produto.categoria : ''}">
+        <br />
         <label for="txtnome">Marca:</label>
         <input type="text" id="txtmarca" value="${produto.marca ?produto.marca : ''}">
         <br />
@@ -44,6 +47,7 @@ function renderForm(produto) {
 function getDataProduto(produto){
     produto.nome = document.querySelector("#txtnome").value;
     produto.preco = document.querySelector("#txtpreco").value;
+    produto.categoria = document.querySelector("#txtcategoria").value;
     produto.marca = document.querySelector("#txtmarca").value;
     return produto;
 }
@@ -51,6 +55,6 @@ function getDataProduto(produto){
 function limparCampos(){
     document.querySelector("#txtnome").value="";
     document.querySelector("#txtpreco").value="";
+    document.querySelector("#txtcategoria").value="";
     document.querySelector("#txtmarca").value="";
 }
-
