@@ -16,7 +16,7 @@
             <h1>Super Mercado <strong>Cortesia ✪</strong></h1>
            
             <nav>
-                <a href="cortesia" id="MenuInicio">Início</a>
+                <a href="super_merc" id="MenuInicio">Início</a>
                 <a href="historia" id="MenuHistoria">Nossa história</a>
                 <a href="produtos" id="MenuProdutos">Produtos</a>
                 <a href="contato" id="MenuContato">Contato</a>
@@ -32,13 +32,13 @@
         </header>
         <main>
             <div class="divLogin">
-            <form class="formLogin" method="post" action="/auth">
+            <form class="formLogin" method="post" action="/login">
               <h1>Login</h1> 
                 <label for="email">Email</label>
-                <input type="text" id="email" name="email" required="required" placeholder="ceocortesia@gmail.com"/><br><br>
+                <input type="text" id="email" name="username" required="required" placeholder="ceocortesia@gmail.com"/><br><br>
                 <label for="senha">Senha</label>
-                <input type="password" id="senha" name="senha" required="required" placeholder="ex.senha" /><br><br>
-                <a href="/adm"  style="text-decoration: none"><button>Entrar</a></button>
+                <input type="password" id="senha" name="password" required="required" placeholder="ex.senha" /><br><br>
+                <input type="submit" value="Login" />
                 </p>
             </div>
             </form>
