@@ -1,0 +1,119 @@
+main{
+    height: 500px;
+}
+table{
+    
+    border: 1px solid black;
+    border-collapse: collapse; 
+    margin-top: 20px;
+    margin-left:-15px;                
+}
+
+ th{
+    border-bottom: 2px solid green;
+    text-align: center;
+    border: 1px solid black;
+    background: #F0FFF0;
+    border-bottom: 2px solid green;
+          
+ }
+
+ td{
+    padding: 6px;
+    font-size: 15px;
+    border: 1px solid black;
+      
+ }
+
+ h3{
+     font-size: 30px;
+     margin-left: 220px;
+ }
+
+ #novo{
+
+  font-size: 15px;
+  width: 165px;
+  height: 35px;
+  color:black;
+  margin-left: -10px; 
+}
+
+.delete{
+    font-size: 15px;
+    color:green;       
+}
+
+.edit{
+    font-size: 15px;
+    color:green
+           
+}
+
+h2{
+    margin-left: 180px;
+    font-size: 30px;
+}
+
+#btnsalvar{
+    font-size: 15px;
+    width: 90px;
+    height: 35px;
+    margin-left: 30px;
+    color:black;
+      
+}
+#btncancelar{
+    font-size: 15px;
+    width: 90px;
+    height: 35px;
+    margin-left: 50px;
+    color:black;
+  
+}
+
+#formulario{
+    text-align: center;
+    margin-top:80px;
+}
+
+form label {
+    font-family:Arial, Helvetica, sans-serif;
+    color:black;
+    font-weight:bold;
+    font-size: 15px;
+    margin-left: 20px;
+    line-height: 2.5; 
+        
+}
+#txtnome{
+    margin-left: 113px; 
+}
+#txtemail{
+    margin-left: 115px; 
+}
+#txtsenha{
+    margin-left: 110px;
+      
+}
+#txtendereco{
+    margin-left: 88px;
+}
+
+#txtdataNasc{
+    margin-left: 35px;
+}
+
+#txtcpf{
+    margin-left: 132px;
+}
+
+#txtcargo{
+    margin-left: 115px;
+}
+
+#txtsetor{
+    margin-left: 120px;
+}
+
+ 

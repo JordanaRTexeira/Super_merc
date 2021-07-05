@@ -17,7 +17,7 @@ function renderForm(funcionario) {
         <input type="text" id="txtsenha" value="${funcionario.senha ?funcionario.senha : ''}">
         <br />
         <label for="textendereco">Endereço:</label>
-        <input type="text" id="textendereco" value="${funcionario.endereco ? funcionario.endereco : ''}">
+        <input type="text" id="txtendereco" value="${funcionario.endereco ? funcionario.endereco : ''}">
         <br />
         <label for="txtdataNasc">Data Nascimento:</label>
         <input type="text" id="txtdataNasc" value="${funcionario.dataNasc ?funcionario.dataNasc : ''}">
@@ -34,7 +34,7 @@ function renderForm(funcionario) {
         <br />
         <br />
         <input type="submit" id="btnsalvar" value="Salvar">
-        <input type="reset" value="Cancelar">
+        <input type="reset" id="btncancelar" value="Cancelar">
         <br />
     </form>
     `;

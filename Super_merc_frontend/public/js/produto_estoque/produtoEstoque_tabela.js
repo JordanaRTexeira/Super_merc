@@ -1,17 +1,16 @@
 function renderTabela(produtos){
     var str=`
     <h3>Tabela de Produtos</h3>
-    <a id='novo' href="#">Novo</a>
     <div id="tabela">
-
+    <input type="button" id='novo' - href="#" value ="Adicionar Produto">
     <table>
         <tr>
-            <th style='text-align: left;'>Id</th>
-            <th style='text-align: left;'>Nome</th>
-            <th style='text-align: left;'>Preço</th>
-            <th style='text-align: left;'>Categoria</th>
-            <th style='text-align: left;'>Marca</th>
-            <th colspan="2">Ação</th>
+            <th style='text-align: center;'>Id</th>
+            <th style='text-align: center;'>Nome</th>
+            <th style='text-align: center;'>Preço</th>
+            <th style='text-align: center;'>Categoria</th>
+            <th style='text-align: center;'>Marca</th>
+            <th colspan="2" >Ação</th>
         </tr>`;
 
     for(var i in produtos){

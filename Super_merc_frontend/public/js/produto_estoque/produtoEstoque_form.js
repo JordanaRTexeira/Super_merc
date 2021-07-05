@@ -22,7 +22,7 @@ function renderForm(produto) {
         <br />
         <br />
         <input type="submit" id="btnsalvar" value="Salvar">
-        <input type="reset" value="Cancelar">
+        <input type="reset" id="btncancelar" value="Cancelar">
         <br />
     </form>
     `;

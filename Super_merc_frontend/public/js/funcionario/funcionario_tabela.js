@@ -1,20 +1,20 @@
 function renderTabela(funcionarios){
     var str=`
     <h3>Tabela de Funcionarios</h3>
-    <a id='novo' href="#">Novo</a>
     <div id="tabela">
+    <input type="button" id='novo' - href="#" value ="Adicionar Funcionário">
 
     <table>
         <tr>
-            <th style='text-align: left;'>Id</th>
-            <th style='text-align: left;'>Nome</th>
-            <th style='text-align: left;'>E-mail</th>
-            <th style='text-align: left;'>Senha</th>
-            <th style='text-align: left;'>Endereço</th>
-            <th style='text-align: left;'>Data de Nascimento</th>
-            <th style='text-align: left;'>CPF</th>
-            <th style='text-align: left;'>Cargo</th>
-            <th style='text-align: left;'>Setor</th>
+            <th style='text-align: center;'>Id</th>
+            <th style='text-align: center;'>Nome</th>
+            <th style='text-align: center;'>E-mail</th>
+            <th style='text-align: center;'>Senha</th>
+            <th style='text-align: center;'>Endereço</th>
+            <th style='text-align: center;'>Data de Nascimento</th>
+            <th style='text-align: center;'>CPF</th>
+            <th style='text-align: center;'>Cargo</th>
+            <th style='text-align: center;'>Setor</th>
 
             <th colspan="2">Ação</th>
         </tr>`;
