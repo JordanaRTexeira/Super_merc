@@ -7,6 +7,7 @@ const dotenv = require('dotenv').config()
 const port = 3000
 
 const produtoRota = require("./rotas/produtoRotas")
+const funcionarioRota = require('./rotas/funcionarioRotas')
 const viewRotas = require("./rotas/viewRotas")
 const loginRouter = require('./rotas/login');
 const admRotas = require("./rotas/admRotas")
@@ -26,9 +27,10 @@ app.use(express.static(path.join('Super_merc_frontend/public')))
 app.set('view engine', 'ejs')
 
 app.use('/super_merc/produtos', produtoRota)
+app.use('/super_merc/funcionarios', funcionarioRota)
 app.use(viewRotas)
 app.use('/login', loginRouter);
-app.use('/adm', authenticationMiddleware, admRotas)
+app.use(admRotas)
 
 const MySQLStore = require('express-mysql-session')(session);
 require('./auth')(passport);
