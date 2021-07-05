@@ -15,16 +15,16 @@ function renderTabela(produtos){
         </tr>`;
 
     for(var i in produtos){
-        str+=`<tr id=${produtos[i].id}>
+        str+=`<tr id=${produtos[i].id_produto}>
                 <td>${produtos[i].id_produto}</td>
                 <td>${produtos[i].nome}</td>
                 <td>${produtos[i].preco}</td>
                 <td>${produtos[i].categoria}</td>
                 <td>${produtos[i].marca}</td>
                 <td><a class="edit" href="#" 
-                    data-id="${produtos[i].id}">Editar</a></td>
+                    data-id="${produtos[i].id_produto}">Editar</a></td>
                 <td><a class="delete" href="#" 
-                    data-id="${produtos[i].id}">Deletar</a></td>
+                    data-id="${produtos[i].id_produto}">Deletar</a></td>
             </tr>`;
             
     } 

@@ -20,7 +20,7 @@ function renderTabela(funcionarios){
         </tr>`;
 
     for(var i in funcionarios){
-        str+=`<tr id=${funcionarios[i].id}>
+        str+=`<tr id=${funcionarios[i].id_funcionario}>
                 <td>${funcionarios[i].id_funcionario}</td>
                 <td>${funcionarios[i].nome}</td>
                 <td>${funcionarios[i].email}</td>
@@ -31,9 +31,9 @@ function renderTabela(funcionarios){
                 <td>${funcionarios[i].cargo}</td>
                 <td>${funcionarios[i].setor}</td>
                 <td><a class="edit" href="#" 
-                    data-id="${funcionarios[i].id}">Editar</a></td>
+                    data-id="${funcionarios[i].id_funcionario}">Editar</a></td>
                 <td><a class="delete" href="#" 
-                    data-id="${funcionarios[i].id}">Deletar</a></td>
+                    data-id="${funcionarios[i].id_funcionario}">Deletar</a></td>
             </tr>`;
             
     } 
