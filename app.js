@@ -8,6 +8,7 @@ const port = 3000
 
 const produtoRota = require("./rotas/produtoRotas")
 const funcionarioRota = require('./rotas/funcionarioRotas')
+const clienteRota = require('./rotas/clienteRotas')
 const viewRotas = require("./rotas/viewRotas")
 const loginRouter = require('./rotas/login');
 const admRotas = require("./rotas/admRotas")
@@ -28,6 +29,7 @@ app.set('view engine', 'ejs')
 
 app.use('/super_merc/produtos', produtoRota)
 app.use('/super_merc/funcionarios', funcionarioRota)
+app.use('/super_merc/clientes', clienteRota)
 app.use(viewRotas)
 app.use('/login', loginRouter);
 app.use(admRotas)
