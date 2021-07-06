@@ -18,6 +18,7 @@
             <nav>
                 <a href="cortesia" id="MenuInicio">Início</a>
                 <a href="historia" id="MenuHistoria">Nossa história</a>
+                <a href="produtos" id="MenuProdutos">Produtos</a>
                 <a href="contato" id="MenuContato">Contato</a>
                 <a href="clientes" id="MenuClientes">Clientes</a>
                 <a href="login" id="MenuAdm">Login</a>
@@ -69,7 +70,7 @@
                    </table><br><br>
                 </form>
                 <div id="botao">
-                <input type="button" name="btn" value="Enviar">
+                <input type="button" name="btn" onclick="funcao1()" value="Enviar">
                 </div>
                 
 
@@ -83,6 +84,12 @@
         </footer>
     </div>
 </body>
+<script>
+    function funcao1()
+    {
+    alert("Mensagem enviada!!!");
+    }
+</script>
 
 
 
