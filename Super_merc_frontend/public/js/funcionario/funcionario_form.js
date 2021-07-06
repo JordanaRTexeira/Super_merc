@@ -8,28 +8,28 @@ function renderForm(funcionario) {
     <h2>Formulario de Funcionarios</h2>
     <form id="formularioFunc">
         <label for="txtnome">Nome:</label>
-        <input type="text" id="txtnome" value="${funcionario.nome ?funcionario.nome : ''}">
+        <input type="text" id="txtnome" required = "required" value="${funcionario.nome ?funcionario.nome : ''}">
         <br />
         <label for="txtemail">Email:</label>
-        <input type="text" id="txtemail" value="${funcionario.email ?funcionario.email : ''}">
+        <input type="text" id="txtemail" required = "required" value="${funcionario.email ?funcionario.email : ''}">
         <br />
         <label for="txtsenha">Senha:</label>
-        <input type="text" id="txtsenha" value="${funcionario.senha ?funcionario.senha : ''}">
+        <input type="text" id="txtsenha" required = "required" value="${funcionario.senha ?funcionario.senha : ''}">
         <br />
         <label for="textendereco">Endereço:</label>
-        <input type="text" id="txtendereco" value="${funcionario.endereco ? funcionario.endereco : ''}">
+        <input type="text" id="txtendereco" required = "required" value="${funcionario.endereco ? funcionario.endereco : ''}">
         <br />
         <label for="txtdataNasc">Data Nascimento:</label>
-        <input type="text" id="txtdataNasc" value="${funcionario.dataNasc ?funcionario.dataNasc : ''}">
+        <input type="text" id="txtdataNasc" required = "required" value="${funcionario.dataNasc ?funcionario.dataNasc : ''}">
         <br />
         <label for="txtcpf">Cpf:</label>
-        <input type="text" id="txtcpf" value="${funcionario.cpf ?funcionario.cpf : ''}">
+        <input type="text" id="txtcpf" required = "required" value="${funcionario.cpf ?funcionario.cpf : ''}">
         <br />
         <label for="txtcargo">Cargo:</label>
-        <input type="text" id="txtcargo" value="${funcionario.cargo ?funcionario.cargo : ''}">
+        <input type="text" id="txtcargo" required = "required" value="${funcionario.cargo ?funcionario.cargo : ''}">
         <br />
         <label for="txtsetor">Setor:</label>
-        <input type="text" id="txtsetor" value="${funcionario.setor ?funcionario.setor : ''}">
+        <input type="text" id="txtsetor" required = "required" value="${funcionario.setor ?funcionario.setor : ''}">
         <br />
         <br />
         <br />

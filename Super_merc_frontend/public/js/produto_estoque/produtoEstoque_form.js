@@ -8,16 +8,16 @@ function renderForm(produto) {
     <h2>Formulario de Produtos</h2>
     <form id="formulario">
         <label for="txtnome">Nome:</label>
-        <input type="text" id="txtnome" value="${produto.nome ?produto.nome : ''}">
+        <input type="text" id="txtnome" required = "required" value="${produto.nome ?produto.nome : ''}">
         <br />
         <label for="txtuso">Preço:</label>
-        <input type="text" id="txtpreco" value="${produto.preco ?produto.preco : ''}">
+        <input type="text" id="txtpreco" required = "required" value="${produto.preco ?produto.preco : ''}">
         <br />
         <label for="txtnome">Categoria:</label>
-        <input type="text" id="txtcategoria" value="${produto.categotia ?produto.categoria : ''}">
+        <input type="text" id="txtcategoria" required = "required" value="${produto.categotia ?produto.categoria : ''}">
         <br />
         <label for="txtnome">Marca:</label>
-        <input type="text" id="txtmarca" value="${produto.marca ?produto.marca : ''}">
+        <input type="text" id="txtmarca" required = "required" value="${produto.marca ?produto.marca : ''}">
         <br />
         <br />
         <br />

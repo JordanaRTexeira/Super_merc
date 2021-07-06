@@ -32,7 +32,7 @@ app.use('/super_merc/funcionarios', funcionarioRota)
 app.use('/super_merc/clientes', clienteRota)
 app.use(viewRotas)
 app.use('/login', loginRouter);
-app.use('/adm', authenticationMiddleware ,admRotas)
+app.use(admRotas)
 
 const MySQLStore = require('express-mysql-session')(session);
 require('./auth')(passport);
