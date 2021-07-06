@@ -13,5 +13,4 @@ admRotas.get('/funcionarios', function(req, res) {
     res.render("../Super_merc_frontend/public/views/funcionarios")
 })
 
-
 module.exports = admRotas

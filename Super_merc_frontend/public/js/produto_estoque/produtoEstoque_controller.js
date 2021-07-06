@@ -14,14 +14,14 @@ function carregarForm(produto){
 }
 
 function salvarProduto(produto){
-    if(!produto.id) {
+    if(!produto.id_produto) {
         inserirProduto(produto, (erro,produto)=> {
             carregarProdutos();
             limparCampos();
         })    
     }
     else {
-        atualizarProduto(produto.id, produto, (erro, produto) => {
+        atualizarProduto(produto.id_produto, produto, (erro, produto) => {
             carregarProdutos();
             limparCampos();
         })

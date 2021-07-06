@@ -14,14 +14,14 @@ function carregarForm(funcionario){
 }
 
 function salvarFuncionario(funcionario){
-    if(!funcionario.id) {
+    if(!funcionario.id_funcionario) {
         inserirFuncionario(funcionario, (erro,funcionario)=> {
             carregarFuncionarios();
             limparCampos();
         })    
     }
     else {
-        atualizarFuncionario(funcionario.id, funcionario, (erro, funcionario) => {
+        atualizarFuncionario(funcionario.id_funcionario, funcionario, (erro, funcionario) => {
             carregarFuncionarios();
             limparCampos();
         })
@@ -47,7 +47,7 @@ function onDeletar(id){
 
 function onEdit(id){
     buscarFuncionario(id, (erro, funcionario) => {
-        console.log("Carregando Funcionario "+funcionario.nome);
+        console.log("Carregando Funcionario " + funcionario.nome);
         carregarForm(funcionario);
     });
 }
