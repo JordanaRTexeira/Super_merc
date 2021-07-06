@@ -1,6 +1,11 @@
 main{
     height: 100%;
 }
+nav{
+	background-color: black;
+	margin-left: 60px;
+	
+}
 table{
     
     border: 1px solid black;

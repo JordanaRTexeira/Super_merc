@@ -1,11 +1,16 @@
 main{
-	height: 500px;
+	height: 600px;
 
+}
+nav{
+	background-color: black;
+	margin-left: 60px;
+	
 }
 table{
     
     border: 1px solid black;
-    margin-left: 110px;
+    margin-left: 90px;
     border-collapse: collapse; 
     margin-top: 20px;
     
