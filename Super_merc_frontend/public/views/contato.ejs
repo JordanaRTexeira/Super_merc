@@ -40,46 +40,39 @@
                 <table class="tableContato">
                     <tr>
                         <td>Nome Completo:</td>
-                        <td><input type="text" name="nome" size="40"> <br /></td>
+                        <td><input type="text" name="nome" size="40" required = "required"> <br /></td>
                     </tr>
                     <tr>
                         <td>Email:</td>
-                        <td><input type="text" name="email" size="40"></td>
+                        <td><input type="text" name="email" size="40" required = "required"></td>
                     </tr><br>
                     <tr>
                         <td>(DDD)Celular:</td>
-                        <td><input type="text" name="celular" size="40"></td>
+                        <td><input type="text" name="celular" size="40" required = "required"></td>
                       </tr><br>
                     <tr>
                         <td>Endereço:</td>
-                        <td><input type="text" name="endereço" size="40"></td>
+                        <td><input type="text" name="endereço" size="40" required = "required"></td>
                       </tr><br>
                     <tr>
                         <td>CEP:</td>
-                        <td><input type="text" name="cep" size="5" maxlength="5"> - <input type="text" name="cep2" size="3" maxlength="3"></td>
+                        <td><input type="text" name="cep" size="5" maxlength="5" required = "required"> - <input type="text" name="cep2" size="3" maxlength="3" required = "required"></td>
                     </tr>
                         <td>Data de Nascimento</td>
-                        <td><input type="date" name="data"></td>
+                        <td><input type="date" name="data" required = "required"></td>
                     </td>
                     <tr>
                         <td>Mensagem</td><br>
-                        <td><textarea name="sinopse" maxlength=300  cools="25" rows="5"></textarea></td>
+                        <td><textarea name="sinopse" maxlength=300  cools="25" rows="5" required = "required"></textarea></td>
                     </tr>
-                 
-                   </table><br><br>
+                </table><br><br>
                 </form>
                 <div id="botao">
-                <input type="button" name="btn" onclick="funcao1()" value="Enviar">
+                <input type="submit" name="btn" onclick="funcao1()" value="Enviar">
                 </div>
-                
-
         </main>
-     
-    
-
         <footer id="rodape">
             <p>© 2021 – Supermercados Cortesia – Todos os direitos reservados.</p>
-          
         </footer>
     </div>
 </body>

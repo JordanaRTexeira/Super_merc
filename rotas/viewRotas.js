@@ -28,10 +28,6 @@ viewRotas.get('/login', function(req, res){
 })
 
 
-viewRotas.get('/adm', function(req, res) { 
-  res.render("../Super_merc_frontend/public/views/adm")  
-})
-
 viewRotas.get('/produtosEstoque', function(req, res) { 
   res.render("../Super_merc_frontend/public/views/produtosEstoque")  
 })
